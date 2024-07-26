@@ -15,5 +15,5 @@ app.use("/api/post", postrouts);
 
 //listening on port 5000
 app.listen(6000, (req, res) => {
-  console.log("Server connected to port 6000");
+  console.log("This server is running on Server connected to port 6000");
 });
